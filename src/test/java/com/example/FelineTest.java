@@ -20,16 +20,12 @@ public class FelineTest {
     @Test
     public void felineFamalyTest() {
         String actual= feline.getFamily();
-        String expected = "Кошачьи";
-        assertEquals(expected, actual);
+        assertEquals("Кошачьи", actual);
     }
 
     @Test
     public void felineKittensTest() {
         int actualKittens = feline.getKittens();
-        int expectedNumberOfKittens = 1;
-        assertEquals(expectedNumberOfKittens, actualKittens);
+        assertEquals(1, actualKittens);
     }
-
-
 }
